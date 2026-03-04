@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BRO</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+      body {
+        opacity: 0;
+        visibility: hidden;
+        background-color: #91b9ae;
+        transition: visibility 0.2s ease 0.2s, opacity 0.2s ease 0.2s;
+      }
+
+      .loaded body {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.min.css?_v=20241020221239" />
+    <link rel="shortcut icon" href="asset/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="menu-open-bg"></div>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" data-goto=".hero" class="menu__link"
+                    ><span>Home</span></a
+                  >
+                </li>
+                <li class="menu__item"><span>/</span></li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".about" class="menu__link"
+                    ><span>About</span></a
+                  >
+                </li>
+                <li class="menu__item"><span>/</span></li>
+                <li class="menu__item">
+                  <a
+                    href="#"
+                    data-goto=".how"
+                    data-goto-top="-20"
+                    class="menu__link"
+                    ><span>How to Buy</span></a
+                  >
+                </li>
+                <li class="menu__item"><span>/</span></li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".tokenomics" class="menu__link"
+                    ><span>Tokenomics</span></a
+                  >
+                </li>
+                <li class="menu__item"><span>/</span></li>
+                <li class="menu__item">
+                  <a href="#" data-goto=".join" class="menu__link"
+                    ><span>Contact</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="page__hero hero" data-watch="navigator">
+          <div class="hero__container">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                <img src="img/hero/title.svg" alt="BRO" />
+              </h1>
+              <div class="hero__actions">
+                <a
+                  href="https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon"
+                  target="_blank"
+                  class="hero__button action-hover"
+                >
+                  <img src="img/hero/btn.svg" alt="BUY NOW" />
+                </a>
+                <div class="hero__social">
+                  <a
+                    href="https://x.com/EthBroX"
+                    target="_blank"
+                    class="hero__social-item action-hover"
+                  >
+                    <img src="img/hero/x.svg" alt="X" />
+                  </a>
+                  <a
+                    href="https://t.me/brobnb_entry"
+                    target="_blank"
+                    class="hero__social-item action-hover"
+                  >
+                    <img src="img/hero/tel.svg" alt="Telegram" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__image">
+              <div class="hero__image-body">
+                <img src="img/hero/01.png" alt="Image" />
+                <a
+                  target="_blank"
+                  href="https://dextools.io/app/ether/pair-explorer/0x9483bc3c75f85ece3e9bf4f95088eecd932547c6"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page__line line">
+          <div class="line__row">
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+          </div>
+          <div class="line__row">
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+          </div>
+        </div>
+        <section class="page__about about" data-watch="navigator">
+          <div class="about__container">
+            <div class="about__image">
+              <!-- <img src="img/about/01.png" alt="Image" /> -->
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good morning, Ethereum!<br>The ticker is. <br>Bro! <a href="https://t.co/ZhDdf1Tmp7">pic.twitter.com/ZhDdf1Tmp7</a></p>&mdash; dima.eth (@dimabuterin) <a href="https://twitter.com/dimabuterin/status/1854487125401485742?ref_src=twsrc%5Etfw">November 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="about__content">
+              <h2 class="about__title">
+                <img src="img/about/title.svg" alt="ABOUT" />
+              </h2>
+              <div class="about__text">
+                Yo, it’s Bro, your crypto homie. <br />
+                Why stress, dude? Bro’s all about chillin’ and cruisin’ through
+                crypto. No rush, no panic. Just vibes. Whether you’re holding
+                bags or checking out the scene, Bro’s here to keep things easy.
+                Take it slow, relax, and let Bro show you the smooth path to
+                crypto, man.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__how how" data-watch="navigator">
+          <div class="how__bg">
+            <img src="img/how/bg.jpg" alt="Image" />
+            <img src="img/how/coins.png" alt="Image" />
+          </div>
+          <div class="how__container">
+            <article class="how__item how__item-1">
+              <div class="how__item-body">
+                <h3>1</h3>
+                <p>
+                  Install MetaMask from the official website, create a new
+                  wallet, secure your seed phrase, and transfer ETH to your
+                  MetaMask address to buy tokens on Ethereum.
+                </p>
+              </div>
+            </article>
+            <article class="how__item how__item-2">
+              <div class="how__item-body">
+                <h3>2</h3>
+                <p>
+                  Connect to a DEX like Uniswap, choose MetaMask, select ETH,
+                  paste the $BRO contract address, and click 'Swap' or
+                  'Exchange,' confirming in MetaMask.
+                </p>
+              </div>
+            </article>
+            <article class="how__item how__item-3">
+              <div class="how__item-body">
+                <h3>3</h3>
+                <p>
+                  Check your transaction status in MetaMask under 'Activity' or
+                  on Etherscan. If the token isn't visible, go to 'Assets,'
+                  click 'Add Token,' and enter the contract address.
+                  Congratulations, you’re now a $BRO 👊🏻😎.
+                </p>
+              </div>
+            </article>
+            <div class="how__image">
+              <img src="img/how/01.png" alt="Image" />
+            </div>
+          </div>
+        </section>
+        <section class="page__tokenomics tokenomics" data-watch="navigator">
+          <div class="tokenomics__image">
+            <img src="img/tokenomics/bg.jpg" alt="Image" />
+            <img src="img/tokenomics/bg-mob.jpg" alt="Image" />
+          </div>
+          <div class="tokenomics__ca">
+            <img src="img/tokenomics/ca.svg" alt="Icon" />
+            <img src="img/tokenomics/ca1.svg" alt="Icon" />
+            <span id="tokenValue"
+              >0x9483bc3c75f85ece3e9bf4f95088eecd932547c6</span
+            >
+            <button type="button" class="copy-ca-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="31"
+                height="31"
+                viewBox="0 0 31 31"
+                fill="none"
+              >
+                <path
+                  d="M26.0343 3.85693H10.6066C10.3509 3.85693 10.1056 3.95852 9.92479 4.13935C9.74396 4.32018 9.64238 4.56543 9.64238 4.82116V9.64232H4.82122C4.5655 9.64232 4.32024 9.7439 4.13941 9.92473C3.95858 10.1056 3.85699 10.3508 3.85699 10.6065V26.0342C3.85699 26.29 3.95858 26.5352 4.13941 26.716C4.32024 26.8969 4.5655 26.9985 4.82122 26.9985H20.2489C20.5046 26.9985 20.7499 26.8969 20.9307 26.716C21.1116 26.5352 21.2131 26.29 21.2131 26.0342V21.2131H26.0343C26.29 21.2131 26.5353 21.1115 26.7161 20.9307C26.8969 20.7498 26.9985 20.5046 26.9985 20.2488V4.82116C26.9985 4.56543 26.8969 4.32018 26.7161 4.13935C26.5353 3.95852 26.29 3.85693 26.0343 3.85693ZM19.2847 25.07H5.78546V11.5708H19.2847V25.07ZM25.0701 19.2846H21.2131V10.6065C21.2131 10.3508 21.1116 10.1056 20.9307 9.92473C20.7499 9.7439 20.5046 9.64232 20.2489 9.64232H11.5708V5.78539H25.0701V19.2846Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        <div class="page__line line">
+          <div class="line__row">
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+          </div>
+          <div class="line__row">
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.png" alt="Icon" />
+            <img src="img/line/03.svg" alt="Icon" />
+            <img src="img/line/01.svg" alt="Icon" />
+          </div>
+        </div>
+        <section class="page__join join" data-watch="navigator">
+          <div class="join__top top-join">
+            <div class="top-join__container">
+              <div class="top-join__main">
+                <div class="top-join__main-content">
+                  <h2 class="top-join__main-title">Bro in</h2>
+                  <div class="top-join__main-actions">
+                    <a
+                      href="https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon"
+                      target="_blank"
+                      class="top-join__main-button"
+                    >
+                      <img src="img/hero/btn.svg" alt="BUY NOW" />
+                    </a>
+                    <div class="top-join__main-social">
+                      <a
+                        href="https://x.com/EthBroX"
+                        target="_blank"
+                        class="top-join__main-social-item"
+                      >
+                        <img src="img/hero/x.svg" alt="X" />
+                      </a>
+                      <a
+                        href="https://t.me/brobnb_entry"
+                        target="_blank"
+                        class="top-join__main-social-item"
+                      >
+                        <img src="img/hero/tel.svg" alt="Telegram" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-join__main-image">
+                  <div class="top-join__main-image-body">
+                    <img src="img/join/01.png" alt="Image" />
+                    <a
+                      href="https://dextools.io/app/ether/pair-explorer/0x9483bc3c75f85ece3e9bf4f95088eecd932547c6"
+                      target="_blank"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="top-join__bottom">
+                <div class="top-join__bottom-image">
+                  <img src="img/join/footer.png" alt="Image" />
+                </div>
+                <div class="top-join__bottom-menu">
+                  <a
+                    href="#"
+                    data-goto=".hero"
+                    class="top-join__bottom-menu-item"
+                    >Home</a
+                  >
+                  <a
+                    href="#"
+                    data-goto=".about"
+                    class="top-join__bottom-menu-item"
+                    >About</a
+                  >
+                  <a
+                    href="#"
+                    data-goto=".how"
+                    data-goto-top="-20"
+                    class="top-join__bottom-menu-item"
+                    >How to Buy</a
+                  >
+                  <a
+                    href="#"
+                    data-goto=".tokenomics"
+                    class="top-join__bottom-menu-item"
+                    >Tokenomics</a
+                  >
+                  <a
+                    href="#"
+                    data-goto=".join"
+                    class="top-join__bottom-menu-item"
+                    >Contact</a
+                  >
+                </div>
+                <div class="top-join__bottom-social">
+                  <a
+                    href="https://t.me/brobnb_entry"
+                    target="_blank"
+                    class="top-join__bottom-social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="27"
+                      viewBox="0 0 32 27"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M28.5513 0.414498C28.943 0.252847 29.3716 0.197095 29.7926 0.253043C30.2137 0.308992 30.6117 0.474596 30.9453 0.732619C31.279 0.990643 31.536 1.33165 31.6896 1.72015C31.8433 2.10866 31.888 2.53045 31.819 2.94163L28.2249 24.3228C27.8763 26.3852 25.5689 27.5679 23.6404 26.5406C22.0271 25.6811 19.6311 24.3569 17.4759 22.9753C16.3983 22.2836 13.0974 20.0689 13.503 18.4929C13.8517 17.1455 19.3981 12.0819 22.5675 9.07139C23.8115 7.88864 23.2442 7.20635 21.7752 8.29429C18.1272 10.9955 12.2701 15.1032 10.3336 16.2596C8.62534 17.2791 7.73474 17.4532 6.66982 17.2791C4.72698 16.9621 2.92518 16.4709 1.45458 15.8726C-0.532636 15.0644 -0.43597 12.3849 1.45299 11.6047L28.5513 0.414498Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://x.com/EthBroX"
+                    target="_blank"
+                    class="top-join__bottom-social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="26"
+                      viewBox="0 0 30 26"
+                      fill="none"
+                    >
+                      <path
+                        d="M23.2224 0.0927734L27.5782 0.0927734L18.0617 10.6685L29.2577 25.0567H20.4917L13.6267 16.3292L5.76971 25.0567H1.41157L11.5908 13.7445L0.850525 0.0939243L9.83904 0.0939243L16.0448 8.07115L23.2224 0.0927734ZM21.6943 22.5227H24.1078L8.52758 2.49446H5.93778L21.6943 22.5227Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://dextools.io/app/ether/pair-explorer/0x9483bc3c75f85ece3e9bf4f95088eecd932547c6"
+                    target="_blank"
+                    class="top-join__bottom-social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="33"
+                      viewBox="0 0 32 33"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.8319 3.80958C11.2208 4.67304 9.90262 5.40378 9.90296 5.43353C9.90371 5.51019 13.7697 7.52471 13.9069 7.51977C13.9693 7.51768 14.4221 7.30314 14.9131 7.04333L15.8059 6.57087L16.781 7.08656L17.756 7.60234L19.3528 6.86415C21.7588 5.75177 22.0087 5.62986 21.9695 5.58897C21.9176 5.53459 21.0547 5.05768 18.7133 3.78941C17.5818 3.17645 16.4835 2.57552 16.2727 2.45384C16.0617 2.33205 15.8605 2.23422 15.8253 2.23611C15.7901 2.238 14.4431 2.94613 12.8319 3.80958ZM5.76542 7.57438L4.08827 8.46579V12.3777C4.08827 14.5293 4.11025 16.2896 4.13733 16.2896C4.16441 16.2896 4.98944 15.9216 5.97097 15.4717L7.75563 14.6538V10.5305L8.6278 11.0193C9.2998 11.3957 9.97234 11.7712 10.6451 12.1461L11.7903 12.784L12.2998 12.5468C12.6194 12.3979 12.9384 12.2476 13.2567 12.0957C13.5026 11.9778 14.1064 11.698 14.5985 11.4738C15.0904 11.2495 15.5459 11.0238 15.6104 10.9725C15.6962 10.9042 14.6502 10.3095 11.7415 8.77271C9.54912 7.61431 7.68495 6.67016 7.59896 6.67473C7.51297 6.6793 6.68792 7.08407 5.76542 7.57438ZM22.2716 7.82468C21.1294 8.35518 20.194 8.81048 20.1929 8.83643C20.1919 8.86238 20.8144 9.24325 21.5764 9.68269C22.3384 10.1223 22.9618 10.5054 22.9618 10.5342C22.9618 10.5631 22.2876 10.8992 21.4636 11.2814C20.6394 11.6635 18.5565 12.6314 16.8346 13.4322L11.0651 16.1153C9.61381 16.7904 8.30562 17.3987 8.15801 17.4675C5.19359 18.8482 4.37884 19.2313 4.26697 19.297C4.15444 19.3633 4.12899 19.7479 4.10895 21.6785L4.08502 23.9811L5.58488 24.7674L7.08465 25.5536L9.16431 24.5879C10.3082 24.0569 11.244 23.5946 11.244 23.5605C11.244 23.5264 11.0326 23.3849 10.7745 23.2455C10.5161 23.1061 9.98276 22.7977 9.58916 22.5598C9.19563 22.3219 8.80325 22.1037 8.71706 22.0747C8.63093 22.0458 8.56175 21.9954 8.56312 21.9624C8.56455 21.9295 9.48036 21.4821 10.5981 20.9678C12.7691 19.9691 14.4306 19.1994 17.9975 17.5398C19.5924 16.7978 21.1877 16.0566 22.7829 15.3154C24.185 14.6642 25.8152 13.9038 26.4056 13.6255L27.4789 13.1195L27.5028 10.7907L27.5267 8.46189L26.0055 7.65862C25.1688 7.21681 24.4537 6.85647 24.4162 6.8578C24.3787 6.85903 23.4138 7.2941 22.2716 7.82468ZM27.0715 16.2262C26.8473 16.3388 26.4046 16.5498 26.0876 16.6949C25.7706 16.84 25.1691 17.1192 24.7508 17.3155L23.9906 17.6723L23.9732 19.7168C23.9637 20.8412 23.9235 21.7562 23.8838 21.7504C23.7938 21.7365 22.3688 20.9846 20.9364 20.1949C19.9026 19.625 19.8376 19.6023 19.5947 19.7262C19.4542 19.7978 18.6147 20.1851 17.7292 20.587C16.8436 20.989 16.0903 21.3441 16.0547 21.3762C16.0195 21.4083 17.8017 22.4021 20.0154 23.5849L24.0403 25.7354L25.7596 24.8202C26.7053 24.317 27.5093 23.8579 27.5463 23.8002C27.6297 23.6704 27.6225 16.0035 27.539 16.0138C27.506 16.0179 27.2956 16.1136 27.0715 16.2262ZM17.5503 25.2252C17.252 25.3571 16.9539 25.4893 16.6558 25.6215C15.7557 26.0222 15.932 26.0355 14.8611 25.4871C14.1479 25.1218 13.8404 25.009 13.707 25.0638C13.6069 25.1047 12.7454 25.5036 11.7925 25.95C10.8395 26.3964 10.0268 26.7615 9.98643 26.7615C9.58657 26.7615 10.2514 27.1701 12.8161 28.5012L15.8241 30.0622L17.0897 29.4194C17.7857 29.0658 19.1897 28.3577 20.2097 27.846C21.2295 27.3341 22.0515 26.902 22.0361 26.8858C22.0206 26.8695 21.166 26.4179 20.1369 25.8824L18.2658 24.9088L17.5503 25.2252Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </a>
+                  <!-- <a
+                    href="https://pancakeswap.finance/swap?outputCurrency=0xcomingsoon"
+                    target="_blank"
+                    class="top-join__bottom-social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31"
+                      height="33"
+                      viewBox="0 0 31 33"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_187_2093)">
+                        <mask
+                          id="mask0_187_2093"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="31"
+                          height="33"
+                        >
+                          <path
+                            d="M30.8966 0.149414H0V32.1494H30.8966V0.149414Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_187_2093)">
+                          <path
+                            d="M25.643 18.9533C25.1758 19.2332 24.6306 19.2841 24.2153 19.0551C23.6961 18.7497 23.3846 18.0627 23.3846 17.1213V14.2462C23.3846 12.8722 22.8394 11.8799 21.9049 11.6254C20.3213 11.1674 19.1272 13.0757 18.6859 13.7882L15.8824 18.19V12.7704C15.8564 11.5237 15.441 10.7858 14.6623 10.5568C14.1431 10.4041 13.3643 10.4805 12.6115 11.6L6.35523 21.4213C5.52453 19.8693 5.08322 18.1391 5.08322 16.3834C5.08322 10.455 9.93764 5.64612 15.8824 5.64612C21.827 5.64612 26.6814 10.455 26.6814 16.3834V16.4089V16.4343C26.7333 17.5793 26.3699 18.4953 25.643 18.9533ZM29.0697 16.3834V16.358V16.3326C29.0437 9.13194 23.125 3.25439 15.8824 3.25439C8.61371 3.25439 2.69495 9.13194 2.69495 16.3834C2.69495 23.6095 8.61371 29.5125 15.8824 29.5125C19.2311 29.5125 22.3981 28.2657 24.8383 26.0012C25.3315 25.5433 25.3575 24.8054 24.8902 24.3219C24.4489 23.8385 23.6961 23.8131 23.2029 24.2456C23.2029 24.2456 23.2028 24.2456 23.1769 24.2711C21.204 26.103 18.5561 27.1462 15.8304 27.1462C12.6374 27.1462 9.78188 25.7722 7.80896 23.5841L13.4422 14.7296V18.8261C13.4422 20.7852 14.221 21.4213 14.8699 21.5994C15.5189 21.7776 16.5053 21.6503 17.5696 19.9965L20.6588 15.0858C20.7627 14.9331 20.8405 14.7805 20.9444 14.6787V17.1722C20.9444 19.0042 21.6972 20.4799 22.9952 21.1923C24.1634 21.8539 25.643 21.7776 26.8631 21.0397C28.3688 20.0728 29.1735 18.3935 29.0697 16.3834Z"
+                            fill="black"
+                          />
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_187_2093">
+                          <rect
+                            width="30.8966"
+                            height="32"
+                            fill="white"
+                            transform="translate(0 0.149414)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="join__footer footer-join">
+            <div class="footer-join__container">
+              <span>2026 © ALL RIGHTS RESERVED</span>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container"></div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20241020221239"></script>
+  </body>
+</html>
